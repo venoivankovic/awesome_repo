@@ -1,0 +1,21 @@
+Server started on 8080
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+{
+  aucID: 45,
+  auctions: [ { identifier: 'auction44', deadline: '2022-02-11T15:41:38' } ],
+  slas: []
+}
+2022-02-11T14:46:10.738Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+over{"identifier":"auction44","deadline":"2022-02-11T15:41:38"}
+2022-02-11T14:46:15.547Z
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org1
+2022-02-11T14:46:15.760Z
+done w SLAs
+2022-02-11T14:46:15.760Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+<Buffer 7b 22 61 75 63 74 69 6f 6e 4f 62 6a 65 63 74 22 3a 7b 22 61 75 63 74 69 6f 6e 52 75 6c 65 73 22 3a 7b 22 61 75 63 74 69 6f 6e 44 69 72 65 63 74 69 6f ... 2177 more bytes>

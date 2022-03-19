@@ -1,0 +1,48 @@
+Server started on port: 8080
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+{
+  aucID: 52,
+  auctions: [ { identifier: 'auction51', deadline: '2022-02-11T16:07:15' } ],
+  slas: []
+}
+over{"identifier":"auction51","deadline":"2022-02-11T16:07:15"}
+2022-02-11T15:08:04.190Z
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org1
+customer1
+Org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+customer1
+Org2
+is it at query
+{
+  accountBalance: { amount: 443, currency: 'euro' },
+  customerID: 'x509::/OU=org2/OU=client/OU=department1/CN=customer1::/C=UK/ST=Hampshire/L=Hursley/O=org2.example.com/CN=ca.org2.example.com',
+  mySLAs: [
+    'sla_auction38',
+    'sla_auction39',
+    'sla_auction44',
+    'sla_auction46',
+    'sla_auction47',
+    'sla_auction49',
+    'sla_auction51'
+  ]
+}
+is it at query service
+{
+  result: {
+    accountBalance: { amount: 443, currency: 'euro' },
+    customerID: 'x509::/OU=org2/OU=client/OU=department1/CN=customer1::/C=UK/ST=Hampshire/L=Hursley/O=org2.example.com/CN=ca.org2.example.com',
+    mySLAs: [
+      'sla_auction38',
+      'sla_auction39',
+      'sla_auction44',
+      'sla_auction46',
+      'sla_auction47',
+      'sla_auction49',
+      'sla_auction51'
+    ]
+  },
+  error: null,
+  errorData: null
+}
+<Buffer 7b 22 61 75 63 74 69 6f 6e 4f 62 6a 65 63 74 22 3a 7b 22 61 75 63 74 69 6f 6e 52 75 6c 65 73 22 3a 7b 22 61 75 63 74 69 6f 6e 44 69 72 65 63 74 69 6f ... 2176 more bytes>

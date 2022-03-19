@@ -1,0 +1,630 @@
+Server started on port: 8080
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+{
+  aucID: 63,
+  auctions: [ { identifier: 'auction61', deadline: '2022-02-11T19:16:41' } ],
+  slas: []
+}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+invoke
+provider1
+Org1
+[
+  '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"fpsb","pricing":{"pricingReserve":""},"deadline":"2022-02-11T18:54:28"}}'
+]
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org1
+im arg 0
+{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"fpsb","pricing":{"pricingReserve":""},"deadline":"2022-02-11T18:54:28"}}
+invoke
+provider2
+Org1
+[
+  '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T18:54:23"}}'
+]
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org1
+im arg 0
+{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T18:54:23"}}
+63
+{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"fpsb","pricing":{"pricingReserve":""},"deadline":"2022-02-11T18:54:28"}}
+63
+{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T18:54:23"}}
+{
+  service: {
+    commodity: { docType: 'vmInstance', properties: [Array] },
+    pricing: { pricingSubscription: 'flatFee' },
+    sloRulesAndFines: [ [Object], [Object] ],
+    witnessGlobalRules: {
+      n: '3',
+      m: '2',
+      cFee: '50',
+      pFee: '50',
+      witnessGamePeriod: [Object],
+      slaDeadline: ''
+    }
+  },
+  auctionRules: {
+    auctionDirection: 'forward',
+    auctionType: 'fpsb',
+    pricing: { pricingReserve: '' },
+    deadline: '2022-02-11T18:54:28'
+  }
+}
+{
+  service: {
+    commodity: { docType: 'vmInstance', properties: [Array] },
+    pricing: { pricingSubscription: 'flatFee' },
+    sloRulesAndFines: [ [Object], [Object] ],
+    witnessGlobalRules: {
+      n: '3',
+      m: '2',
+      cFee: '50',
+      pFee: '50',
+      witnessGamePeriod: [Object],
+      slaDeadline: ''
+    }
+  },
+  auctionRules: {
+    auctionDirection: 'forward',
+    auctionType: 'english',
+    pricing: { startPrice: '', pricingReserve: '', biddingStep: '' },
+    deadline: '2022-02-11T18:54:23'
+  }
+}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+over{"identifier":"auction63","deadline":"2022-02-11T18:54:23"}
+2022-02-11T17:55:44.301Z
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org1
+[ { identifier: 'auction61', deadline: '2022-02-11T19:16:41' } ]
+writing deleted auctions
+File Content Deleted
+provider2
+Org1
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org1
+provider2
+Org1
+is it at query
+[
+  {
+    Key: 'auction38',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T15:10:41"}}',
+      bids: [Array],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider2::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction62',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T18:50:30"}}',
+      bids: [],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider2::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction63',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T18:54:23"}}',
+      bids: [],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider2::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  }
+]
+is it at query service
+{
+  result: [
+    { Key: 'auction38', Record: [Object] },
+    { Key: 'auction62', Record: [Object] },
+    { Key: 'auction63', Record: [Object] }
+  ],
+  error: null,
+  errorData: null
+}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+provider1
+Org1
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org1
+provider1
+Org1
+is it at query
+[
+  {
+    Key: 'auction36',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"fpsb","pricing":{"pricingReserve":""},"deadline":"2022-02-11T15:07:19"}}',
+      bids: [],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction37',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T15:09:08"}}',
+      bids: [],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction39',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T15:30:47"}}',
+      bids: [Array],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction40',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T15:34:37"}}',
+      bids: [],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction41',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T15:35:13"}}',
+      bids: [],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction42',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T15:27:38"}}',
+      bids: [],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction43',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T12:37:53"}}',
+      bids: [],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction44',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T15:41:38"}}',
+      bids: [Array],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction45',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T15:58:01"}}',
+      bids: [],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction46',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:00:08"}}',
+      bids: [Array],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction47',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:01:01"}}',
+      bids: [Array],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction48',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:04:17"}}',
+      bids: [],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction49',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:04:59"}}',
+      bids: [Array],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction50',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:05:47"}}',
+      bids: [Array],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction51',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:07:15"}}',
+      bids: [Array],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction52',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:14:15"}}',
+      bids: [Array],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction53',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-12T16:16:28"}}',
+      bids: [],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction54',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:17:11"}}',
+      bids: [Array],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction55',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:21:00"}}',
+      bids: [Array],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction56',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:25:27"}}',
+      bids: [Array],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction57',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T17:58:31"}}',
+      bids: [],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction58',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T17:00:12"}}',
+      bids: [],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction59',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T17:02:57"}}',
+      bids: [Array],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction60',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T18:11:51"}}',
+      bids: [Array],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction61',
+    Record: {
+      active: true,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T19:16:41"}}',
+      bids: [Array],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  }
+]
+is it at query service
+{
+  result: [
+    { Key: 'auction36', Record: [Object] },
+    { Key: 'auction37', Record: [Object] },
+    { Key: 'auction39', Record: [Object] },
+    { Key: 'auction40', Record: [Object] },
+    { Key: 'auction41', Record: [Object] },
+    { Key: 'auction42', Record: [Object] },
+    { Key: 'auction43', Record: [Object] },
+    { Key: 'auction44', Record: [Object] },
+    { Key: 'auction45', Record: [Object] },
+    { Key: 'auction46', Record: [Object] },
+    { Key: 'auction47', Record: [Object] },
+    { Key: 'auction48', Record: [Object] },
+    { Key: 'auction49', Record: [Object] },
+    { Key: 'auction50', Record: [Object] },
+    { Key: 'auction51', Record: [Object] },
+    { Key: 'auction52', Record: [Object] },
+    { Key: 'auction53', Record: [Object] },
+    { Key: 'auction54', Record: [Object] },
+    { Key: 'auction55', Record: [Object] },
+    { Key: 'auction56', Record: [Object] },
+    { Key: 'auction57', Record: [Object] },
+    { Key: 'auction58', Record: [Object] },
+    { Key: 'auction59', Record: [Object] },
+    { Key: 'auction60', Record: [Object] },
+    { Key: 'auction61', Record: [Object] }
+  ],
+  error: null,
+  errorData: null
+}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+provider2
+Org1
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org1
+provider2
+Org1
+is it at query
+[
+  {
+    Key: 'auction38',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T15:10:41"}}',
+      bids: [Array],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider2::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction62',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T18:50:30"}}',
+      bids: [],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider2::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction63',
+    Record: {
+      active: false,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T18:54:23"}}',
+      bids: [],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider2::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  }
+]
+is it at query service
+{
+  result: [
+    { Key: 'auction38', Record: [Object] },
+    { Key: 'auction62', Record: [Object] },
+    { Key: 'auction63', Record: [Object] }
+  ],
+  error: null,
+  errorData: null
+}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}
+still running{"identifier":"auction61","deadline":"2022-02-11T19:16:41"}

@@ -1,0 +1,156 @@
+Server started on port: 8080
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+{
+  aucID: 48,
+  auctions: [ { identifier: 'auction47', deadline: '2022-02-11T16:01:01' } ],
+  slas: []
+}
+2022-02-11T15:02:06.256Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+still running sla_auction46
+still running sla_auction47
+over{"identifier":"auction47","deadline":"2022-02-11T16:01:01"}
+2022-02-11T15:02:11.066Z
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org1
+2022-02-11T15:02:11.279Z
+done w SLAs
+2022-02-11T15:02:11.284Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+still running sla_auction46
+still running sla_auction47
+<Buffer 7b 22 61 75 63 74 69 6f 6e 4f 62 6a 65 63 74 22 3a 7b 22 61 75 63 74 69 6f 6e 52 75 6c 65 73 22 3a 7b 22 61 75 63 74 69 6f 6e 44 69 72 65 63 74 69 6f ... 2176 more bytes>
+[]
+writing deleted auctions
+File Content Deleted
+2022-02-11T15:02:16.349Z
+done w SLAs
+2022-02-11T15:02:16.349Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+still running sla_auction46
+still running sla_auction47
+2022-02-11T15:02:21.396Z
+done w SLAs
+2022-02-11T15:02:21.397Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+still running sla_auction46
+still running sla_auction47
+2022-02-11T15:02:26.447Z
+done w SLAs
+2022-02-11T15:02:26.448Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+still running sla_auction46
+still running sla_auction47
+2022-02-11T15:02:31.507Z
+done w SLAs
+2022-02-11T15:02:31.511Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+still running sla_auction46
+still running sla_auction47
+2022-02-11T15:02:36.560Z
+done w SLAs
+2022-02-11T15:02:36.564Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+still running sla_auction46
+still running sla_auction47
+2022-02-11T15:02:41.622Z
+done w SLAs
+2022-02-11T15:02:41.627Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+still running sla_auction46
+still running sla_auction47
+2022-02-11T15:02:46.650Z
+done w SLAs
+2022-02-11T15:02:46.654Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+still running sla_auction46
+still running sla_auction47
+2022-02-11T15:02:51.711Z
+done w SLAs
+2022-02-11T15:02:51.711Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+still running sla_auction46
+still running sla_auction47
+2022-02-11T15:02:56.779Z
+done w SLAs
+2022-02-11T15:02:56.780Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+still running sla_auction46
+still running sla_auction47
+2022-02-11T15:03:01.838Z
+done w SLAs
+2022-02-11T15:03:01.843Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+still running sla_auction46
+still running sla_auction47
+2022-02-11T15:03:06.894Z
+done w SLAs
+2022-02-11T15:03:06.895Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+still running sla_auction46
+still running sla_auction47
+2022-02-11T15:03:11.947Z
+done w SLAs
+2022-02-11T15:03:11.947Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+still running sla_auction46
+still running sla_auction47
+2022-02-11T15:03:17.002Z
+done w SLAs
+2022-02-11T15:03:17.003Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+still running sla_auction46
+still running sla_auction47
+2022-02-11T15:03:22.066Z
+done w SLAs
+2022-02-11T15:03:22.067Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+still running sla_auction46
+still running sla_auction47
+2022-02-11T15:03:27.115Z
+done w SLAs
+2022-02-11T15:03:27.116Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+still running sla_auction46
+still running sla_auction47
+2022-02-11T15:03:32.144Z
+done w SLAs
+2022-02-11T15:03:32.144Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+still running sla_auction46
+still running sla_auction47

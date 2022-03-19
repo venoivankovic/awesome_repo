@@ -1,0 +1,61 @@
+Server started on port: 8080
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+{ aucID: 45, auctions: [], slas: [] }
+2022-02-11T14:54:31.872Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+2022-02-11T14:54:36.893Z
+done w SLAs
+2022-02-11T14:54:36.893Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+2022-02-11T14:54:41.943Z
+done w SLAs
+2022-02-11T14:54:41.943Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+2022-02-11T14:54:46.969Z
+done w SLAs
+2022-02-11T14:54:46.969Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+2022-02-11T14:54:51.994Z
+done w SLAs
+2022-02-11T14:54:51.994Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+2022-02-11T14:54:57.026Z
+done w SLAs
+2022-02-11T14:54:57.027Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+2022-02-11T14:55:02.058Z
+done w SLAs
+2022-02-11T14:55:02.058Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+2022-02-11T14:55:07.116Z
+done w SLAs
+2022-02-11T14:55:07.116Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+2022-02-11T14:55:12.179Z
+done w SLAs
+2022-02-11T14:55:12.179Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44
+2022-02-11T14:55:17.239Z
+done w SLAs
+2022-02-11T14:55:17.239Z
+still running sla_auction38
+still running sla_auction39
+still running sla_auction44

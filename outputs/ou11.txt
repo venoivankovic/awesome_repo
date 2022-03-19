@@ -1,0 +1,1177 @@
+Server started on port: 8080
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+{ aucID: 48, auctions: [], slas: [] }
+invoke
+provider1
+Org1
+[
+  '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:04:17"}}'
+]
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org1
+im arg 0
+{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:04:17"}}
+48
+{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:04:17"}}
+{
+  service: {
+    commodity: { docType: 'vmInstance', properties: [Array] },
+    pricing: { pricingSubscription: 'flatFee' },
+    sloRulesAndFines: [ [Object], [Object] ],
+    witnessGlobalRules: {
+      n: '3',
+      m: '2',
+      cFee: '50',
+      pFee: '50',
+      witnessGamePeriod: [Object],
+      slaDeadline: ''
+    }
+  },
+  auctionRules: {
+    auctionDirection: 'forward',
+    auctionType: 'english',
+    pricing: { startPrice: '', pricingReserve: '', biddingStep: '' },
+    deadline: '2022-02-11T16:04:17'
+  }
+}
+still running{"identifier":"auction48","deadline":"2022-02-11T16:04:17"}
+customer1
+Org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+customer1
+Org2
+is it at query
+[
+  {
+    Key: 'auction48',
+    Record: {
+      active: true,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:04:17"}}',
+      bids: [],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  }
+]
+is it at query service
+{
+  result: [ { Key: 'auction48', Record: [Object] } ],
+  error: null,
+  errorData: null
+}
+customer1
+Org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+customer1
+Org2
+is it at query
+{
+  active: true,
+  auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:04:17"}}',
+  bids: [],
+  docType: 'auction',
+  owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+}
+is it at query service
+{
+  result: {
+    active: true,
+    auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:04:17"}}',
+    bids: [],
+    docType: 'auction',
+    owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+  },
+  error: null,
+  errorData: null
+}
+over{"identifier":"auction48","deadline":"2022-02-11T16:04:17"}
+2022-02-11T15:04:17.149Z
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org1
+[]
+writing deleted auctions
+File Content Deleted
+provider1
+Org1
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org1
+provider1
+Org1
+is it at query
+{
+  accountBalance: { amount: 542, currency: 'euro' },
+  myAuctions: [
+    'auction36', 'auction37',
+    'auction39', 'auction40',
+    'auction41', 'auction42',
+    'auction43', 'auction44',
+    'auction45', 'auction46',
+    'auction47', 'auction48'
+  ],
+  mySLAs: [
+    'sla_auction39',
+    'sla_auction44',
+    'sla_auction46',
+    'sla_auction47'
+  ],
+  providerID: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+}
+is it at query service
+{
+  result: {
+    accountBalance: { amount: 542, currency: 'euro' },
+    myAuctions: [
+      'auction36', 'auction37',
+      'auction39', 'auction40',
+      'auction41', 'auction42',
+      'auction43', 'auction44',
+      'auction45', 'auction46',
+      'auction47', 'auction48'
+    ],
+    mySLAs: [
+      'sla_auction39',
+      'sla_auction44',
+      'sla_auction46',
+      'sla_auction47'
+    ],
+    providerID: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+  },
+  error: null,
+  errorData: null
+}
+invoke
+provider1
+Org1
+[
+  '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:04:59"}}'
+]
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org1
+im arg 0
+{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:04:59"}}
+49
+{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:04:59"}}
+{
+  service: {
+    commodity: { docType: 'vmInstance', properties: [Array] },
+    pricing: { pricingSubscription: 'flatFee' },
+    sloRulesAndFines: [ [Object], [Object] ],
+    witnessGlobalRules: {
+      n: '3',
+      m: '2',
+      cFee: '50',
+      pFee: '50',
+      witnessGamePeriod: [Object],
+      slaDeadline: ''
+    }
+  },
+  auctionRules: {
+    auctionDirection: 'forward',
+    auctionType: 'english',
+    pricing: { startPrice: '', pricingReserve: '', biddingStep: '' },
+    deadline: '2022-02-11T16:04:59'
+  }
+}
+customer1
+Org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+customer1
+Org2
+is it at query
+[
+  {
+    Key: 'auction49',
+    Record: {
+      active: true,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:04:59"}}',
+      bids: [],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  }
+]
+is it at query service
+{
+  result: [ { Key: 'auction49', Record: [Object] } ],
+  error: null,
+  errorData: null
+}
+customer1
+Org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+customer1
+Org2
+is it at query
+{
+  active: true,
+  auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:04:59"}}',
+  bids: [],
+  docType: 'auction',
+  owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+}
+is it at query service
+{
+  result: {
+    active: true,
+    auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:04:59"}}',
+    bids: [],
+    docType: 'auction',
+    owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+  },
+  error: null,
+  errorData: null
+}
+still running{"identifier":"auction49","deadline":"2022-02-11T16:04:59"}
+invoke
+customer1
+Org2
+[
+  'auction49',
+  '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+]
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+invoke
+customer1
+Org2
+[
+  'auction49',
+  '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+]
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+disconnected invoke
+2022-02-11T15:04:56.988Z - [33mwarn[39m: [TransactionEventHandler]: strategyFail: commit failure for transaction "53a29f4eb195e93b2d4f3daea3164fa22990503d6d3bbf6daf8c68f82dc2a695": TransactionError: Commit of transaction 53a29f4eb195e93b2d4f3daea3164fa22990503d6d3bbf6daf8c68f82dc2a695 failed on peer peer0.org2.example.com:9051 with status MVCC_READ_CONFLICT
+    at TransactionEventHandler.eventCallback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/transactioneventhandler.js:86:31)
+    at CommitListenerSession.notifyListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:78:18)
+    at EventListener.callback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:69:18)
+    at EventListener.onEvent (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventListener.js:124:10)
+    at EventService._callTransactionListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1051:16)
+    at EventService._processTxEvents (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1006:12)
+    at ClientDuplexStreamImpl.<anonymous> (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:481:12)
+    at ClientDuplexStreamImpl.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9) {
+  transactionId: '53a29f4eb195e93b2d4f3daea3164fa22990503d6d3bbf6daf8c68f82dc2a695',
+  transactionCode: 'MVCC_READ_CONFLICT'
+}
+still running{"identifier":"auction49","deadline":"2022-02-11T16:04:59"}
+over{"identifier":"auction49","deadline":"2022-02-11T16:04:59"}
+2022-02-11T15:05:02.164Z
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org1
+<Buffer 7b 22 61 75 63 74 69 6f 6e 4f 62 6a 65 63 74 22 3a 7b 22 61 75 63 74 69 6f 6e 52 75 6c 65 73 22 3a 7b 22 61 75 63 74 69 6f 6e 44 69 72 65 63 74 69 6f ... 2176 more bytes>
+[]
+writing deleted auctions
+File Content Deleted
+customer1
+Org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+customer1
+Org2
+is it at query
+{
+  accountBalance: { amount: 449, currency: 'euro' },
+  customerID: 'x509::/OU=org2/OU=client/OU=department1/CN=customer1::/C=UK/ST=Hampshire/L=Hursley/O=org2.example.com/CN=ca.org2.example.com',
+  mySLAs: [
+    'sla_auction38',
+    'sla_auction39',
+    'sla_auction44',
+    'sla_auction46',
+    'sla_auction47',
+    'sla_auction49'
+  ]
+}
+is it at query service
+{
+  result: {
+    accountBalance: { amount: 449, currency: 'euro' },
+    customerID: 'x509::/OU=org2/OU=client/OU=department1/CN=customer1::/C=UK/ST=Hampshire/L=Hursley/O=org2.example.com/CN=ca.org2.example.com',
+    mySLAs: [
+      'sla_auction38',
+      'sla_auction39',
+      'sla_auction44',
+      'sla_auction46',
+      'sla_auction47',
+      'sla_auction49'
+    ]
+  },
+  error: null,
+  errorData: null
+}
+customer1
+Org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+customer1
+Org2
+is it at query
+{
+  accountBalance: { amount: 449, currency: 'euro' },
+  customerID: 'x509::/OU=org2/OU=client/OU=department1/CN=customer1::/C=UK/ST=Hampshire/L=Hursley/O=org2.example.com/CN=ca.org2.example.com',
+  mySLAs: [
+    'sla_auction38',
+    'sla_auction39',
+    'sla_auction44',
+    'sla_auction46',
+    'sla_auction47',
+    'sla_auction49'
+  ]
+}
+is it at query service
+{
+  result: {
+    accountBalance: { amount: 449, currency: 'euro' },
+    customerID: 'x509::/OU=org2/OU=client/OU=department1/CN=customer1::/C=UK/ST=Hampshire/L=Hursley/O=org2.example.com/CN=ca.org2.example.com',
+    mySLAs: [
+      'sla_auction38',
+      'sla_auction39',
+      'sla_auction44',
+      'sla_auction46',
+      'sla_auction47',
+      'sla_auction49'
+    ]
+  },
+  error: null,
+  errorData: null
+}
+customer1
+Org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+customer1
+Org2
+is it at query
+{
+  accountBalance: { amount: 449, currency: 'euro' },
+  customerID: 'x509::/OU=org2/OU=client/OU=department1/CN=customer1::/C=UK/ST=Hampshire/L=Hursley/O=org2.example.com/CN=ca.org2.example.com',
+  mySLAs: [
+    'sla_auction38',
+    'sla_auction39',
+    'sla_auction44',
+    'sla_auction46',
+    'sla_auction47',
+    'sla_auction49'
+  ]
+}
+is it at query service
+{
+  result: {
+    accountBalance: { amount: 449, currency: 'euro' },
+    customerID: 'x509::/OU=org2/OU=client/OU=department1/CN=customer1::/C=UK/ST=Hampshire/L=Hursley/O=org2.example.com/CN=ca.org2.example.com',
+    mySLAs: [
+      'sla_auction38',
+      'sla_auction39',
+      'sla_auction44',
+      'sla_auction46',
+      'sla_auction47',
+      'sla_auction49'
+    ]
+  },
+  error: null,
+  errorData: null
+}
+customer1
+Org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+customer1
+Org2
+is it at query
+{
+  accountBalance: { amount: 449, currency: 'euro' },
+  customerID: 'x509::/OU=org2/OU=client/OU=department1/CN=customer1::/C=UK/ST=Hampshire/L=Hursley/O=org2.example.com/CN=ca.org2.example.com',
+  mySLAs: [
+    'sla_auction38',
+    'sla_auction39',
+    'sla_auction44',
+    'sla_auction46',
+    'sla_auction47',
+    'sla_auction49'
+  ]
+}
+is it at query service
+{
+  result: {
+    accountBalance: { amount: 449, currency: 'euro' },
+    customerID: 'x509::/OU=org2/OU=client/OU=department1/CN=customer1::/C=UK/ST=Hampshire/L=Hursley/O=org2.example.com/CN=ca.org2.example.com',
+    mySLAs: [
+      'sla_auction38',
+      'sla_auction39',
+      'sla_auction44',
+      'sla_auction46',
+      'sla_auction47',
+      'sla_auction49'
+    ]
+  },
+  error: null,
+  errorData: null
+}
+customer1
+Org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+customer1
+Org2
+is it at query
+{
+  accountBalance: { amount: 449, currency: 'euro' },
+  customerID: 'x509::/OU=org2/OU=client/OU=department1/CN=customer1::/C=UK/ST=Hampshire/L=Hursley/O=org2.example.com/CN=ca.org2.example.com',
+  mySLAs: [
+    'sla_auction38',
+    'sla_auction39',
+    'sla_auction44',
+    'sla_auction46',
+    'sla_auction47',
+    'sla_auction49'
+  ]
+}
+is it at query service
+{
+  result: {
+    accountBalance: { amount: 449, currency: 'euro' },
+    customerID: 'x509::/OU=org2/OU=client/OU=department1/CN=customer1::/C=UK/ST=Hampshire/L=Hursley/O=org2.example.com/CN=ca.org2.example.com',
+    mySLAs: [
+      'sla_auction38',
+      'sla_auction39',
+      'sla_auction44',
+      'sla_auction46',
+      'sla_auction47',
+      'sla_auction49'
+    ]
+  },
+  error: null,
+  errorData: null
+}
+customer1
+Org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+customer1
+Org2
+is it at query
+{
+  accountBalance: { amount: 449, currency: 'euro' },
+  customerID: 'x509::/OU=org2/OU=client/OU=department1/CN=customer1::/C=UK/ST=Hampshire/L=Hursley/O=org2.example.com/CN=ca.org2.example.com',
+  mySLAs: [
+    'sla_auction38',
+    'sla_auction39',
+    'sla_auction44',
+    'sla_auction46',
+    'sla_auction47',
+    'sla_auction49'
+  ]
+}
+is it at query service
+{
+  result: {
+    accountBalance: { amount: 449, currency: 'euro' },
+    customerID: 'x509::/OU=org2/OU=client/OU=department1/CN=customer1::/C=UK/ST=Hampshire/L=Hursley/O=org2.example.com/CN=ca.org2.example.com',
+    mySLAs: [
+      'sla_auction38',
+      'sla_auction39',
+      'sla_auction44',
+      'sla_auction46',
+      'sla_auction47',
+      'sla_auction49'
+    ]
+  },
+  error: null,
+  errorData: null
+}
+customer1
+Org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+customer1
+Org2
+is it at query
+{
+  accountBalance: { amount: 449, currency: 'euro' },
+  customerID: 'x509::/OU=org2/OU=client/OU=department1/CN=customer1::/C=UK/ST=Hampshire/L=Hursley/O=org2.example.com/CN=ca.org2.example.com',
+  mySLAs: [
+    'sla_auction38',
+    'sla_auction39',
+    'sla_auction44',
+    'sla_auction46',
+    'sla_auction47',
+    'sla_auction49'
+  ]
+}
+is it at query service
+{
+  result: {
+    accountBalance: { amount: 449, currency: 'euro' },
+    customerID: 'x509::/OU=org2/OU=client/OU=department1/CN=customer1::/C=UK/ST=Hampshire/L=Hursley/O=org2.example.com/CN=ca.org2.example.com',
+    mySLAs: [
+      'sla_auction38',
+      'sla_auction39',
+      'sla_auction44',
+      'sla_auction46',
+      'sla_auction47',
+      'sla_auction49'
+    ]
+  },
+  error: null,
+  errorData: null
+}
+invoke
+provider1
+Org1
+[
+  '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:05:47"}}'
+]
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org1
+im arg 0
+{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:05:47"}}
+50
+{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:05:47"}}
+{
+  service: {
+    commodity: { docType: 'vmInstance', properties: [Array] },
+    pricing: { pricingSubscription: 'flatFee' },
+    sloRulesAndFines: [ [Object], [Object] ],
+    witnessGlobalRules: {
+      n: '3',
+      m: '2',
+      cFee: '50',
+      pFee: '50',
+      witnessGamePeriod: [Object],
+      slaDeadline: ''
+    }
+  },
+  auctionRules: {
+    auctionDirection: 'forward',
+    auctionType: 'english',
+    pricing: { startPrice: '', pricingReserve: '', biddingStep: '' },
+    deadline: '2022-02-11T16:05:47'
+  }
+}
+still running{"identifier":"auction50","deadline":"2022-02-11T16:05:47"}
+customer1
+Org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+customer1
+Org2
+is it at query
+[
+  {
+    Key: 'auction50',
+    Record: {
+      active: true,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:05:47"}}',
+      bids: [],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  }
+]
+is it at query service
+{
+  result: [ { Key: 'auction50', Record: [Object] } ],
+  error: null,
+  errorData: null
+}
+customer1
+Org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+customer1
+Org2
+is it at query
+{
+  active: true,
+  auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:05:47"}}',
+  bids: [],
+  docType: 'auction',
+  owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+}
+is it at query service
+{
+  result: {
+    active: true,
+    auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:05:47"}}',
+    bids: [],
+    docType: 'auction',
+    owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+  },
+  error: null,
+  errorData: null
+}
+still running{"identifier":"auction50","deadline":"2022-02-11T16:05:47"}
+invoke
+customer1
+Org2
+[
+  'auction50',
+  '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+]
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+invoke
+customer1
+Org2
+[
+  'auction50',
+  '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+]
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+invoke
+customer1
+Org2
+[
+  'auction50',
+  '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+]
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+invoke
+customer1
+Org2
+[
+  'auction50',
+  '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+]
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+invoke
+customer1
+Org2
+[
+  'auction50',
+  '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+]
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+invoke
+customer1
+Org2
+[
+  'auction50',
+  '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+]
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+2022-02-11T15:05:45.817Z - [33mwarn[39m: [TransactionEventHandler]: strategyFail: commit failure for transaction "3a649c2ab3b195eb01bfda4a33b290f753729d40dc4e6709d99251db45ea8e99": TransactionError: Commit of transaction 3a649c2ab3b195eb01bfda4a33b290f753729d40dc4e6709d99251db45ea8e99 failed on peer peer0.org2.example.com:9051 with status MVCC_READ_CONFLICT
+    at TransactionEventHandler.eventCallback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/transactioneventhandler.js:86:31)
+    at CommitListenerSession.notifyListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:78:18)
+    at EventListener.callback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:69:18)
+    at EventListener.onEvent (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventListener.js:124:10)
+    at EventService._callTransactionListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1051:16)
+    at EventService._processTxEvents (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1006:12)
+    at ClientDuplexStreamImpl.<anonymous> (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:481:12)
+    at ClientDuplexStreamImpl.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9) {
+  transactionId: '3a649c2ab3b195eb01bfda4a33b290f753729d40dc4e6709d99251db45ea8e99',
+  transactionCode: 'MVCC_READ_CONFLICT'
+}
+disconnected invoke
+2022-02-11T15:05:45.821Z - [33mwarn[39m: [TransactionEventHandler]: strategyFail: commit failure for transaction "ebcf0c4d14dbfe3fd5b2997af875646b50cfa4a8a78dbce689f160ce07568eb7": TransactionError: Commit of transaction ebcf0c4d14dbfe3fd5b2997af875646b50cfa4a8a78dbce689f160ce07568eb7 failed on peer peer0.org2.example.com:9051 with status MVCC_READ_CONFLICT
+    at TransactionEventHandler.eventCallback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/transactioneventhandler.js:86:31)
+    at CommitListenerSession.notifyListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:78:18)
+    at EventListener.callback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:69:18)
+    at EventListener.onEvent (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventListener.js:124:10)
+    at EventService._callTransactionListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1051:16)
+    at EventService._processTxEvents (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1006:12)
+    at ClientDuplexStreamImpl.<anonymous> (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:481:12)
+    at ClientDuplexStreamImpl.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9) {
+  transactionId: 'ebcf0c4d14dbfe3fd5b2997af875646b50cfa4a8a78dbce689f160ce07568eb7',
+  transactionCode: 'MVCC_READ_CONFLICT'
+}
+2022-02-11T15:05:45.822Z - [33mwarn[39m: [TransactionEventHandler]: strategyFail: commit failure for transaction "4c004fee56792fe84bf78bfeec30d6f83dcf59db0181b34f95b4143bf791e434": TransactionError: Commit of transaction 4c004fee56792fe84bf78bfeec30d6f83dcf59db0181b34f95b4143bf791e434 failed on peer peer0.org2.example.com:9051 with status MVCC_READ_CONFLICT
+    at TransactionEventHandler.eventCallback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/transactioneventhandler.js:86:31)
+    at CommitListenerSession.notifyListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:78:18)
+    at EventListener.callback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:69:18)
+    at EventListener.onEvent (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventListener.js:124:10)
+    at EventService._callTransactionListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1051:16)
+    at EventService._processTxEvents (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1006:12)
+    at ClientDuplexStreamImpl.<anonymous> (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:481:12)
+    at ClientDuplexStreamImpl.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9) {
+  transactionId: '4c004fee56792fe84bf78bfeec30d6f83dcf59db0181b34f95b4143bf791e434',
+  transactionCode: 'MVCC_READ_CONFLICT'
+}
+2022-02-11T15:05:45.823Z - [33mwarn[39m: [TransactionEventHandler]: strategyFail: commit failure for transaction "14016232a55d736ad5f23e6c6cd69b6f5882aa314018ceac0dc43e9a02f966a9": TransactionError: Commit of transaction 14016232a55d736ad5f23e6c6cd69b6f5882aa314018ceac0dc43e9a02f966a9 failed on peer peer0.org2.example.com:9051 with status MVCC_READ_CONFLICT
+    at TransactionEventHandler.eventCallback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/transactioneventhandler.js:86:31)
+    at CommitListenerSession.notifyListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:78:18)
+    at EventListener.callback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:69:18)
+    at EventListener.onEvent (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventListener.js:124:10)
+    at EventService._callTransactionListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1051:16)
+    at EventService._processTxEvents (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1006:12)
+    at ClientDuplexStreamImpl.<anonymous> (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:481:12)
+    at ClientDuplexStreamImpl.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9) {
+  transactionId: '14016232a55d736ad5f23e6c6cd69b6f5882aa314018ceac0dc43e9a02f966a9',
+  transactionCode: 'MVCC_READ_CONFLICT'
+}
+2022-02-11T15:05:45.824Z - [33mwarn[39m: [TransactionEventHandler]: strategyFail: commit failure for transaction "93046dc7382c47b1b3ae0c8aa1c4c51613c7e404a05884bf7f7e7e4a409ef6ab": TransactionError: Commit of transaction 93046dc7382c47b1b3ae0c8aa1c4c51613c7e404a05884bf7f7e7e4a409ef6ab failed on peer peer0.org2.example.com:9051 with status MVCC_READ_CONFLICT
+    at TransactionEventHandler.eventCallback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/transactioneventhandler.js:86:31)
+    at CommitListenerSession.notifyListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:78:18)
+    at EventListener.callback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:69:18)
+    at EventListener.onEvent (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventListener.js:124:10)
+    at EventService._callTransactionListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1051:16)
+    at EventService._processTxEvents (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1006:12)
+    at ClientDuplexStreamImpl.<anonymous> (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:481:12)
+    at ClientDuplexStreamImpl.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9) {
+  transactionId: '93046dc7382c47b1b3ae0c8aa1c4c51613c7e404a05884bf7f7e7e4a409ef6ab',
+  transactionCode: 'MVCC_READ_CONFLICT'
+}
+invoke
+customer1
+Org2
+[
+  'auction50',
+  '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+]
+invoke
+customer1
+Org2
+[
+  'auction50',
+  '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+]
+invoke
+customer1
+Org2
+[
+  'auction50',
+  '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+]
+invoke
+customer1
+Org2
+[
+  'auction50',
+  '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+]
+invoke
+customer1
+Org2
+[
+  'auction50',
+  '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+]
+invoke
+customer1
+Org2
+[
+  'auction50',
+  '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+]
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+over{"identifier":"auction50","deadline":"2022-02-11T16:05:47"}
+2022-02-11T15:05:47.183Z
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org1
+2022-02-11T15:05:48.603Z - [33mwarn[39m: [TransactionEventHandler]: strategyFail: commit failure for transaction "aa546a4f797a340cab7e298f130334f1cc579692ecd25c78bdf08c9a9a4f7267": TransactionError: Commit of transaction aa546a4f797a340cab7e298f130334f1cc579692ecd25c78bdf08c9a9a4f7267 failed on peer peer0.org1.example.com:7051 with status MVCC_READ_CONFLICT
+    at TransactionEventHandler.eventCallback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/transactioneventhandler.js:86:31)
+    at CommitListenerSession.notifyListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:78:18)
+    at EventListener.callback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:69:18)
+    at EventListener.onEvent (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventListener.js:124:10)
+    at EventService._callTransactionListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1051:16)
+    at EventService._processTxEvents (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1006:12)
+    at ClientDuplexStreamImpl.<anonymous> (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:481:12)
+    at ClientDuplexStreamImpl.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9) {
+  transactionId: 'aa546a4f797a340cab7e298f130334f1cc579692ecd25c78bdf08c9a9a4f7267',
+  transactionCode: 'MVCC_READ_CONFLICT'
+}
+2022-02-11T15:05:48.605Z - [33mwarn[39m: [TransactionEventHandler]: strategyFail: commit failure for transaction "ba17dfce4fe7023570a62df7dcc3fe66050503dcd3bfa16f2ec9732afc969b63": TransactionError: Commit of transaction ba17dfce4fe7023570a62df7dcc3fe66050503dcd3bfa16f2ec9732afc969b63 failed on peer peer0.org2.example.com:9051 with status MVCC_READ_CONFLICT
+    at TransactionEventHandler.eventCallback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/transactioneventhandler.js:86:31)
+    at CommitListenerSession.notifyListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:78:18)
+    at EventListener.callback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:69:18)
+    at EventListener.onEvent (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventListener.js:124:10)
+    at EventService._callTransactionListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1051:16)
+    at EventService._processTxEvents (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1006:12)
+    at ClientDuplexStreamImpl.<anonymous> (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:481:12)
+    at ClientDuplexStreamImpl.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9) {
+  transactionId: 'ba17dfce4fe7023570a62df7dcc3fe66050503dcd3bfa16f2ec9732afc969b63',
+  transactionCode: 'MVCC_READ_CONFLICT'
+}
+disconnected invoke
+2022-02-11T15:05:48.609Z - [33mwarn[39m: [TransactionEventHandler]: strategyFail: commit failure for transaction "9519bba8990f6e231f2a234965f177edba894122861461bdc4edf0884e00cae2": TransactionError: Commit of transaction 9519bba8990f6e231f2a234965f177edba894122861461bdc4edf0884e00cae2 failed on peer peer0.org2.example.com:9051 with status MVCC_READ_CONFLICT
+    at TransactionEventHandler.eventCallback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/transactioneventhandler.js:86:31)
+    at CommitListenerSession.notifyListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:78:18)
+    at EventListener.callback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:69:18)
+    at EventListener.onEvent (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventListener.js:124:10)
+    at EventService._callTransactionListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1051:16)
+    at EventService._processTxEvents (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1006:12)
+    at ClientDuplexStreamImpl.<anonymous> (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:481:12)
+    at ClientDuplexStreamImpl.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9) {
+  transactionId: '9519bba8990f6e231f2a234965f177edba894122861461bdc4edf0884e00cae2',
+  transactionCode: 'MVCC_READ_CONFLICT'
+}
+2022-02-11T15:05:48.610Z - [33mwarn[39m: [TransactionEventHandler]: strategyFail: commit failure for transaction "b2dc148722eb8021b3b779cf162693f21df37d410755cc5deba27d7357ad22cc": TransactionError: Commit of transaction b2dc148722eb8021b3b779cf162693f21df37d410755cc5deba27d7357ad22cc failed on peer peer0.org2.example.com:9051 with status MVCC_READ_CONFLICT
+    at TransactionEventHandler.eventCallback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/transactioneventhandler.js:86:31)
+    at CommitListenerSession.notifyListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:78:18)
+    at EventListener.callback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:69:18)
+    at EventListener.onEvent (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventListener.js:124:10)
+    at EventService._callTransactionListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1051:16)
+    at EventService._processTxEvents (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1006:12)
+    at ClientDuplexStreamImpl.<anonymous> (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:481:12)
+    at ClientDuplexStreamImpl.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9) {
+  transactionId: 'b2dc148722eb8021b3b779cf162693f21df37d410755cc5deba27d7357ad22cc',
+  transactionCode: 'MVCC_READ_CONFLICT'
+}
+2022-02-11T15:05:48.611Z - [33mwarn[39m: [TransactionEventHandler]: strategyFail: commit failure for transaction "55cb08da33be3e6586ca006562c7ee179c1fd4e93fe219a205318c7c75a41b9b": TransactionError: Commit of transaction 55cb08da33be3e6586ca006562c7ee179c1fd4e93fe219a205318c7c75a41b9b failed on peer peer0.org2.example.com:9051 with status MVCC_READ_CONFLICT
+    at TransactionEventHandler.eventCallback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/transactioneventhandler.js:86:31)
+    at CommitListenerSession.notifyListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:78:18)
+    at EventListener.callback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:69:18)
+    at EventListener.onEvent (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventListener.js:124:10)
+    at EventService._callTransactionListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1051:16)
+    at EventService._processTxEvents (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1006:12)
+    at ClientDuplexStreamImpl.<anonymous> (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:481:12)
+    at ClientDuplexStreamImpl.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9) {
+  transactionId: '55cb08da33be3e6586ca006562c7ee179c1fd4e93fe219a205318c7c75a41b9b',
+  transactionCode: 'MVCC_READ_CONFLICT'
+}
+2022-02-11T15:05:48.614Z - [33mwarn[39m: [TransactionEventHandler]: strategyFail: commit failure for transaction "c27b467884a404ee70a635d4e61e9eb5b706e4c023337c3935c6260722a0ee8e": TransactionError: Commit of transaction c27b467884a404ee70a635d4e61e9eb5b706e4c023337c3935c6260722a0ee8e failed on peer peer0.org2.example.com:9051 with status MVCC_READ_CONFLICT
+    at TransactionEventHandler.eventCallback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/transactioneventhandler.js:86:31)
+    at CommitListenerSession.notifyListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:78:18)
+    at EventListener.callback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:69:18)
+    at EventListener.onEvent (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventListener.js:124:10)
+    at EventService._callTransactionListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1051:16)
+    at EventService._processTxEvents (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1006:12)
+    at ClientDuplexStreamImpl.<anonymous> (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:481:12)
+    at ClientDuplexStreamImpl.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9) {
+  transactionId: 'c27b467884a404ee70a635d4e61e9eb5b706e4c023337c3935c6260722a0ee8e',
+  transactionCode: 'MVCC_READ_CONFLICT'
+}
+invoke
+customer1
+Org2
+[
+  'auction50',
+  '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+]
+invoke
+customer1
+Org2
+[
+  'auction50',
+  '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+]
+invoke
+customer1
+Org2
+[
+  'auction50',
+  '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+]
+invoke
+customer1
+Org2
+[
+  'auction50',
+  '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+]
+[]
+writing deleted auctions
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+File Content Deleted
+2022-02-11T15:05:51.225Z - [33mwarn[39m: [TransactionEventHandler]: strategyFail: commit failure for transaction "6dcd3be4d95aa69f9dc7ac988274d25fb9f58815fe9c635e75b0d34b76996a32": TransactionError: Commit of transaction 6dcd3be4d95aa69f9dc7ac988274d25fb9f58815fe9c635e75b0d34b76996a32 failed on peer peer0.org2.example.com:9051 with status MVCC_READ_CONFLICT
+    at TransactionEventHandler.eventCallback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/transactioneventhandler.js:86:31)
+    at CommitListenerSession.notifyListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:78:18)
+    at EventListener.callback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:69:18)
+    at EventListener.onEvent (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventListener.js:124:10)
+    at EventService._callTransactionListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1051:16)
+    at EventService._processTxEvents (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1006:12)
+    at ClientDuplexStreamImpl.<anonymous> (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:481:12)
+    at ClientDuplexStreamImpl.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9) {
+  transactionId: '6dcd3be4d95aa69f9dc7ac988274d25fb9f58815fe9c635e75b0d34b76996a32',
+  transactionCode: 'MVCC_READ_CONFLICT'
+}
+disconnected invoke
+2022-02-11T15:05:51.239Z - [33mwarn[39m: [TransactionEventHandler]: strategyFail: commit failure for transaction "c9908f0660f3d30bab7cce08d0652550004df9664b9e231f7f6df4d657bfa5d5": TransactionError: Commit of transaction c9908f0660f3d30bab7cce08d0652550004df9664b9e231f7f6df4d657bfa5d5 failed on peer peer0.org2.example.com:9051 with status MVCC_READ_CONFLICT
+    at TransactionEventHandler.eventCallback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/transactioneventhandler.js:86:31)
+    at CommitListenerSession.notifyListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:78:18)
+    at EventListener.callback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:69:18)
+    at EventListener.onEvent (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventListener.js:124:10)
+    at EventService._callTransactionListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1051:16)
+    at EventService._processTxEvents (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1006:12)
+    at ClientDuplexStreamImpl.<anonymous> (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:481:12)
+    at ClientDuplexStreamImpl.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9) {
+  transactionId: 'c9908f0660f3d30bab7cce08d0652550004df9664b9e231f7f6df4d657bfa5d5',
+  transactionCode: 'MVCC_READ_CONFLICT'
+}
+2022-02-11T15:05:51.243Z - [33mwarn[39m: [TransactionEventHandler]: strategyFail: commit failure for transaction "6081df86a707d7d3b433088c279e881af2f6db5af719ab4ed5e547e1d4866038": TransactionError: Commit of transaction 6081df86a707d7d3b433088c279e881af2f6db5af719ab4ed5e547e1d4866038 failed on peer peer0.org2.example.com:9051 with status MVCC_READ_CONFLICT
+    at TransactionEventHandler.eventCallback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/transactioneventhandler.js:86:31)
+    at CommitListenerSession.notifyListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:78:18)
+    at EventListener.callback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:69:18)
+    at EventListener.onEvent (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventListener.js:124:10)
+    at EventService._callTransactionListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1051:16)
+    at EventService._processTxEvents (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1006:12)
+    at ClientDuplexStreamImpl.<anonymous> (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:481:12)
+    at ClientDuplexStreamImpl.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9) {
+  transactionId: '6081df86a707d7d3b433088c279e881af2f6db5af719ab4ed5e547e1d4866038',
+  transactionCode: 'MVCC_READ_CONFLICT'
+}
+customer1
+Org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+customer1
+Org2
+is it at query
+{
+  accountBalance: { amount: 449, currency: 'euro' },
+  customerID: 'x509::/OU=org2/OU=client/OU=department1/CN=customer1::/C=UK/ST=Hampshire/L=Hursley/O=org2.example.com/CN=ca.org2.example.com',
+  mySLAs: [
+    'sla_auction38',
+    'sla_auction39',
+    'sla_auction44',
+    'sla_auction46',
+    'sla_auction47',
+    'sla_auction49'
+  ]
+}
+is it at query service
+{
+  result: {
+    accountBalance: { amount: 449, currency: 'euro' },
+    customerID: 'x509::/OU=org2/OU=client/OU=department1/CN=customer1::/C=UK/ST=Hampshire/L=Hursley/O=org2.example.com/CN=ca.org2.example.com',
+    mySLAs: [
+      'sla_auction38',
+      'sla_auction39',
+      'sla_auction44',
+      'sla_auction46',
+      'sla_auction47',
+      'sla_auction49'
+    ]
+  },
+  error: null,
+  errorData: null
+}
+invoke
+provider1
+Org1
+[
+  '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:07:15"}}'
+]
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org1
+im arg 0
+{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:07:15"}}
+51
+{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:07:15"}}
+{
+  service: {
+    commodity: { docType: 'vmInstance', properties: [Array] },
+    pricing: { pricingSubscription: 'flatFee' },
+    sloRulesAndFines: [ [Object], [Object] ],
+    witnessGlobalRules: {
+      n: '3',
+      m: '2',
+      cFee: '50',
+      pFee: '50',
+      witnessGamePeriod: [Object],
+      slaDeadline: ''
+    }
+  },
+  auctionRules: {
+    auctionDirection: 'forward',
+    auctionType: 'english',
+    pricing: { startPrice: '', pricingReserve: '', biddingStep: '' },
+    deadline: '2022-02-11T16:07:15'
+  }
+}
+still running{"identifier":"auction51","deadline":"2022-02-11T16:07:15"}
+customer1
+Org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+customer1
+Org2
+is it at query
+[
+  {
+    Key: 'auction50',
+    Record: {
+      active: true,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:05:47"}}',
+      bids: [Array],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  },
+  {
+    Key: 'auction51',
+    Record: {
+      active: true,
+      auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:07:15"}}',
+      bids: [],
+      docType: 'auction',
+      owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+    }
+  }
+]
+is it at query service
+{
+  result: [
+    { Key: 'auction50', Record: [Object] },
+    { Key: 'auction51', Record: [Object] }
+  ],
+  error: null,
+  errorData: null
+}
+still running{"identifier":"auction51","deadline":"2022-02-11T16:07:15"}
+customer1
+Org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+customer1
+Org2
+is it at query
+{
+  active: true,
+  auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:07:15"}}',
+  bids: [],
+  docType: 'auction',
+  owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+}
+is it at query service
+{
+  result: {
+    active: true,
+    auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:07:15"}}',
+    bids: [],
+    docType: 'auction',
+    owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+  },
+  error: null,
+  errorData: null
+}
+still running{"identifier":"auction51","deadline":"2022-02-11T16:07:15"}
+customer1
+Org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+customer1
+Org2
+is it at query
+{
+  active: true,
+  auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:05:47"}}',
+  bids: [
+    {
+      customerID: 'x509::/OU=org2/OU=client/OU=department1/CN=customer1::/C=UK/ST=Hampshire/L=Hursley/O=org2.example.com/CN=ca.org2.example.com',
+      bid: '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+    },
+    {
+      customerID: 'x509::/OU=org2/OU=client/OU=department1/CN=customer1::/C=UK/ST=Hampshire/L=Hursley/O=org2.example.com/CN=ca.org2.example.com',
+      bid: '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+    },
+    {
+      customerID: 'x509::/OU=org2/OU=client/OU=department1/CN=customer1::/C=UK/ST=Hampshire/L=Hursley/O=org2.example.com/CN=ca.org2.example.com',
+      bid: '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+    }
+  ],
+  docType: 'auction',
+  owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+}
+is it at query service
+{
+  result: {
+    active: true,
+    auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:05:47"}}',
+    bids: [ [Object], [Object], [Object] ],
+    docType: 'auction',
+    owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+  },
+  error: null,
+  errorData: null
+}
+still running{"identifier":"auction51","deadline":"2022-02-11T16:07:15"}
+customer1
+Org2
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+customer1
+Org2
+is it at query
+{
+  active: true,
+  auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:07:15"}}',
+  bids: [],
+  docType: 'auction',
+  owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+}
+is it at query service
+{
+  result: {
+    active: true,
+    auctionObject: '{"service":{"commodity":{"docType":"vmInstance","properties":[{"commodityKey":"os","commodityValue":"Ubuntu 18.04"}]},"pricing":{"pricingSubscription":"flatFee"},"sloRulesAndFines":[{"ruleIdentifier":"VM availability","ruleCondition":"We can ssh into the vm","ruleFine":"100","sloWitnessConfig":{"rewardViolation":"5","rewardNoViolation":"10","punishmentViolation":"15","punishmentNoViolation":"20","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}},{"ruleIdentifier":"VM latency","ruleCondition":"Less than 3 s","ruleFine":"50","sloWitnessConfig":{"rewardViolation":"25","rewardNoViolation":"30","punishmentViolation":"35","punishmentNoViolation":"40","tPeriod":{"hours":"0","minutes":"0","seconds":"45"}}}],"witnessGlobalRules":{"n":"3","m":"2","cFee":"50","pFee":"50","witnessGamePeriod":{"days":"0","hours":"1","minutes":"3","seconds":"0"},"slaDeadline":""}},"auctionRules":{"auctionDirection":"forward","auctionType":"english","pricing":{"startPrice":"","pricingReserve":"","biddingStep":""},"deadline":"2022-02-11T16:07:15"}}',
+    bids: [],
+    docType: 'auction',
+    owner: 'x509::/OU=org1/OU=client/OU=department1/CN=provider1::/C=US/ST=North Carolina/L=Durham/O=org1.example.com/CN=ca.org1.example.com'
+  },
+  error: null,
+  errorData: null
+}
+still running{"identifier":"auction51","deadline":"2022-02-11T16:07:15"}
+still running{"identifier":"auction51","deadline":"2022-02-11T16:07:15"}
+still running{"identifier":"auction51","deadline":"2022-02-11T16:07:15"}
+still running{"identifier":"auction51","deadline":"2022-02-11T16:07:15"}
+invoke
+customer1
+Org2
+[
+  'auction51',
+  '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+]
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+invoke
+customer1
+Org2
+[
+  'auction51',
+  '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+]
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+invoke
+customer1
+Org2
+[
+  'auction51',
+  '{"auctionID":"","pricing":{"bidAmount":"6","pricingSubscription":"flatFee"}}'
+]
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org2
+2022-02-11T15:07:16.584Z - [33mwarn[39m: [TransactionEventHandler]: strategyFail: commit failure for transaction "da0b0429edb297fe38754d016ac959e6042a118407635fe387138cd78d252180": TransactionError: Commit of transaction da0b0429edb297fe38754d016ac959e6042a118407635fe387138cd78d252180 failed on peer peer0.org2.example.com:9051 with status MVCC_READ_CONFLICT
+    at TransactionEventHandler.eventCallback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/transactioneventhandler.js:86:31)
+    at CommitListenerSession.notifyListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:78:18)
+    at EventListener.callback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:69:18)
+    at EventListener.onEvent (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventListener.js:124:10)
+    at EventService._callTransactionListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1051:16)
+    at EventService._processTxEvents (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1006:12)
+    at ClientDuplexStreamImpl.<anonymous> (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:481:12)
+    at ClientDuplexStreamImpl.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9) {
+  transactionId: 'da0b0429edb297fe38754d016ac959e6042a118407635fe387138cd78d252180',
+  transactionCode: 'MVCC_READ_CONFLICT'
+}
+2022-02-11T15:07:16.587Z - [33mwarn[39m: [TransactionEventHandler]: strategyFail: commit failure for transaction "8087334bd017852422f5933a24c6016fccb79937f8ad574c0098f46e558b5b87": TransactionError: Commit of transaction 8087334bd017852422f5933a24c6016fccb79937f8ad574c0098f46e558b5b87 failed on peer peer0.org2.example.com:9051 with status MVCC_READ_CONFLICT
+    at TransactionEventHandler.eventCallback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/transactioneventhandler.js:86:31)
+    at CommitListenerSession.notifyListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:78:18)
+    at EventListener.callback (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/lib/impl/event/commitlistenersession.js:69:18)
+    at EventListener.onEvent (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventListener.js:124:10)
+    at EventService._callTransactionListener (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1051:16)
+    at EventService._processTxEvents (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:1006:12)
+    at ClientDuplexStreamImpl.<anonymous> (/home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/node_modules/fabric-network/node_modules/fabric-common/lib/EventService.js:481:12)
+    at ClientDuplexStreamImpl.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9) {
+  transactionId: '8087334bd017852422f5933a24c6016fccb79937f8ad574c0098f46e558b5b87',
+  transactionCode: 'MVCC_READ_CONFLICT'
+}
+disconnected invoke
+over{"identifier":"auction51","deadline":"2022-02-11T16:07:15"}
+2022-02-11T15:07:17.212Z
+Wallet path: /home/ivanveno/Desktop/master2020/PMP/h_fabv3/fabric-samples/awesome_deploy/apiserver/wallet/org1
+<Buffer 7b 22 61 75 63 74 69 6f 6e 4f 62 6a 65 63 74 22 3a 7b 22 61 75 63 74 69 6f 6e 52 75 6c 65 73 22 3a 7b 22 61 75 63 74 69 6f 6e 44 69 72 65 63 74 69 6f ... 2176 more bytes>
