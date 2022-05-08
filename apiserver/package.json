@@ -20,7 +20,7 @@
     "express-session": "^1.17.2",
     "fabric-ca-client": "^2.2.4",
     "fabric-client": "^1.4.8",
-    "fabric-common": "^1.4.10",
+    "fabric-common": "^1.4.19",
     "fabric-network": "^2.2.4",
     "req-flash": "0.0.3",
     "js-yaml": "^3.13.1",
